@@ -105,6 +105,16 @@ int main() {
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
 
+    //Exibe o atributo escolhido para comparação e o valor de cada carta para o mesmo
+    printf("\nComparação de cartas (Atributo: Super Poder):\n - Carta 1 - %s : %.2f\n - Carta 2 - %s : %.2f\n", nome1, super1, nome2, super2);
+
+    if(super1>super2) {
+        printf("Resultado: Carta 1 (%s) venceu!\n", nome1);
+    } else if(super1<super2){
+        printf("Resultado: Carta 2 (%s) venceu!\n", nome2);
+    } else {
+        printf("Resultado: Empate, ambas as cartas têm o mesmo valor\n");
+    }
 
     return 0;
 }
