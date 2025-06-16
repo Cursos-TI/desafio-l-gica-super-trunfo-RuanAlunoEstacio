@@ -153,9 +153,9 @@ int main() {
             break;
         case 5:
             printf("\nComparação de cartas (Atributo: Densidade demográfica):\n - Carta 1 - %s : %.2f hab/km²\n - Carta 2 - %s : %.2f hab/km²\n", nome1, densidade1, nome2, densidade2);
-            if(densidade1>densidade2) {
+            if(densidade1<densidade2) {
                 printf("Resultado: Carta 1 (%s) venceu!\n", nome1);
-            } else if(densidade1<densidade2){
+            } else if(densidade1>densidade2){
                 printf("Resultado: Carta 2 (%s) venceu!\n", nome2);
             } else {
                 printf("Resultado: Empate, ambas as cartas têm o mesmo valor\n");
