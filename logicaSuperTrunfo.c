@@ -197,6 +197,7 @@ int main() {
     printf("\nEscolha o segundo atributo: ");
     scanf("%d", &escolhaAtributo2);
 
+    //Verificação de que o segundo atributo não é o mesmo que o primeiro
     if(escolhaAtributo2!=escolhaAtributo1) {
         switch(escolhaAtributo2){
         case 1:
